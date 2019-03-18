@@ -1,6 +1,15 @@
-
+/**
+ * To calculate simple and compound interest.
+ * @author suhailpappu
+ *
+ */
 public class HouseCostEstimator {
-	
+	/**
+	 * To Estimate the cost of the house by some materials
+	 * @param materialType
+	 * @param area
+	 * @param automatedHome
+	 */
 	public int CostEstimator(int materialType,int area,boolean automatedHome) {
 		int cost=0;
 		switch(materialType) {
